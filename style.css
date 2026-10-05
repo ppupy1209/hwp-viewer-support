@@ -12,3 +12,4 @@ section{background:var(--card);border:1px solid var(--line);border-radius:14px;p
 a{color:var(--accent)}
 nav{font-size:14px;margin-top:4px}
 footer{font-size:13px;color:var(--muted);margin-top:40px}
+.small{font-size:13px;color:#666}
