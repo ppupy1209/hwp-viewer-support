@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>아이폰에서 배포용·암호 한글 문서(hwpx) 열기 | HWP 뷰어</title>
+<meta name="description" content="배포용 문서를 아이폰에서 열면 왜 저장·프린트가 안 되는지, 암호 걸린 hwpx를 아이폰·아이패드에서 여는 순서를 정리했습니다. HWP 뷰어 1.6.0 기준입니다.">
+<link rel="canonical" href="https://ppupy1209.github.io/hwp-viewer-support/hwp-protected.html">
+<meta name="apple-itunes-app" content="app-id=6819025696">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="HWP 뷰어 지원">
+<meta property="og:title" content="배포용·암호 걸린 한글 문서, 아이폰에서 열기">
+<meta property="og:description" content="배포용 문서는 보기 전용이라 저장·프린트가 안 됩니다. 암호 걸린 hwpx는 1.6.0부터 암호를 넣어 열 수 있습니다.">
+<meta property="og:url" content="https://ppupy1209.github.io/hwp-viewer-support/hwp-protected.html">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "배포용 문서를 PDF로 저장할 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "할 수 없습니다. 배포용 문서는 보낸 곳에서 보기만 하도록 만든 문서라 PDF 저장·프린트·공유가 되지 않습니다. 필요하면 한컴오피스 한/글에서 열어 주세요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "암호를 모르면 열 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "열 수 없습니다. 모르는 암호를 풀거나 우회하는 기능은 없습니다. 문서를 보낸 사람에게 암호를 물어봐 주세요."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Mac에서도 되나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "아직 되지 않습니다. Mac용 HWP 뷰어(현재 1.5.0)는 배포용 .hwpx와 암호 문서를 열 수 없습니다. 이 글은 iPhone·iPad용 1.6.0 기준입니다."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<main>
+<header>
+<img src="icon.png" alt="">
+<div>
+<h1>배포용·암호 걸린 한글 문서, 아이폰에서 열기</h1>
+<nav><a href="index.html">HWP 뷰어 지원</a> · <a href="index.html#guides">사용 안내 모음</a></nav>
+</div>
+</header>
+
+<section>
+<p class="small">HWP 뷰어를 만드는 개발자 ongsim이 직접 쓴 안내입니다.</p>
+<p>iPhone·iPad용 HWP 뷰어 1.6.0이 2026년 11월 7일(한국 시간) App Store에 공개됐습니다. 이 버전부터 배포용 .hwpx와 암호가 걸린 .hwpx를 열 수 있습니다.</p>
+<p>업데이트는 단계적으로 자동 적용됩니다. 아직 1.6.0이 아니면 App Store에서 직접 업데이트해 주세요.</p>
+</section>
+
+<section>
+<h2>이럴 때 봅니다</h2>
+<ul>
+<li>배포용 문서를 아이폰에서 열었는데 저장·프린트가 안 될 때</li>
+<li>암호가 걸린 hwpx 파일을 받았을 때</li>
+<li>암호가 걸린 .hwp 파일이 열리지 않을 때</li>
+</ul>
+<p><a class="button" href="https://apps.apple.com/kr/app/id6819025696">App Store에서 HWP 뷰어 받기</a></p>
+<p class="small">아이폰·아이패드. 기기 안에서만 처리하고 문서를 서버로 보내지 않습니다.</p>
+</section>
+
+<section>
+<h2>배포용 문서</h2>
+<p>배포용 문서는 공공기관 보도자료처럼 ‘보기만 하도록’ 만든 한/글 문서입니다.</p>
+<p>1.6.0부터 배포용 .hwpx도 열립니다. 배포용 .hwp는 이전부터 열렸습니다. 형식(.hwp·.hwpx)과 관계없이 배포용 문서는 보기 전용입니다.</p>
+<p>문서를 만든 쪽이 정한 제한입니다. 앱은 그 제한을 그대로 따릅니다.</p>
+<p>배포용 문서를 열면 ‘더 보기’(⋯) 메뉴에 ‘배포용 문서 · 저장·프린트 안 됨’ 항목이 보입니다. 누르면 ‘배포용 문서예요’ 알림이 뜹니다.</p>
+<p class="small">‘보낸 곳에서 보기만 하도록 만든 문서라 PDF 저장·프린트·공유는 할 수 없어요. 필요하면 한컴오피스 한/글에서 열어 주세요.’</p>
+<p>읽기·쪽 이동·찾기 같은 보기 기능은 그대로 됩니다. 다음은 쓸 수 없습니다.</p>
+<ul>
+<li>PDF 저장·프린트·공유</li>
+<li>양식 채우기</li>
+<li>글자 고치기</li>
+<li>도장·펜 표시</li>
+</ul>
+</section>
+
+<section>
+<h2>암호가 걸린 HWPX 열기</h2>
+<p>1.6.0부터 암호가 걸린 .hwpx는 암호를 넣어 열 수 있습니다.</p>
+<ol>
+<li>파일을 엽니다.</li>
+<li>‘암호가 걸린 문서’ 창이 뜹니다. “문서를 만든 사람이 정한 암호를 넣어 주세요.”라는 안내가 보입니다.</li>
+<li>암호를 넣고 ‘열기’를 누릅니다.</li>
+</ol>
+<p>암호가 틀리면 “암호가 맞지 않아요. 다시 넣어 주세요.”가 보입니다. 다시 넣으면 됩니다. ‘취소’를 누르면 문서를 닫습니다.</p>
+<h3>알아 둘 것</h3>
+<ul>
+<li>암호를 넣어 연 .hwpx는 한글 파일로 저장하거나 글자를 고칠 수 없습니다.</li>
+<li>PDF로 저장·프린트·공유는 됩니다.</li>
+<li>모르는 암호를 풀거나 우회하는 기능은 없습니다. 문서를 보낸 사람에게 암호를 물어봐 주세요.</li>
+<li>한컴오피스 한/글 2024에서 만든 열기 암호 .hwpx로 열리는 것을 확인했습니다.</li>
+<li>문서는 기기 안에서만 처리하며 서버로 보내지 않습니다.</li>
+</ul>
+</section>
+
+<section>
+<h2>암호가 걸린 HWP(.hwp)는</h2>
+<p>암호가 걸린 .hwp(구형식)는 아직 바로 열 수 없습니다. 앱에는 이런 안내가 뜹니다.</p>
+<p class="small">‘암호가 걸린 .hwp 문서는 바로 열 수 없어요. 한컴오피스 한/글에서 .hwpx 형식으로 다시 저장하면 이 앱에서 암호를 넣어 열 수 있어요.’</p>
+<p>PC 한/글이 있는 사람에게 .hwpx로 다시 저장해 달라고 부탁하면 됩니다. 보통은 문서를 보낸 쪽입니다.</p>
+</section>
+
+<section>
+<h2>자주 묻는 질문</h2>
+<h3>배포용 문서를 PDF로 저장할 수 있나요?</h3>
+<p>할 수 없습니다. 배포용 문서는 보낸 곳에서 보기만 하도록 만든 문서라 PDF 저장·프린트·공유가 되지 않습니다. 필요하면 한컴오피스 한/글에서 열어 주세요.</p>
+<h3>암호를 모르면 열 수 있나요?</h3>
+<p>열 수 없습니다. 모르는 암호를 풀거나 우회하는 기능은 없습니다. 문서를 보낸 사람에게 암호를 물어봐 주세요.</p>
+<h3>Mac에서도 되나요?</h3>
+<p>아직 되지 않습니다. Mac용 HWP 뷰어(현재 1.5.0)는 배포용 .hwpx와 암호 문서를 열 수 없습니다. 이 글은 iPhone·iPad용 1.6.0 기준입니다.</p>
+
+<h3>관련 글</h3>
+<ul>
+<li><a href="ipad-mac-hwpx.html">아이패드·맥에서 한글 파일 열기</a></li>
+<li><a href="kakaotalk-hwp.html">카카오톡으로 받은 한글 파일 열기</a></li>
+<li><a href="pdf-password.html">아이폰에서 PDF 암호 풀기·걸기</a></li>
+</ul>
+</section>
+
+<footer>
+<p>‘한글’, ‘한/글’은 한글과컴퓨터의 등록상표이며 이 앱은 한글과컴퓨터와 관련이 없습니다.</p>
+</footer>
+</main>
+</body>
+</html>
